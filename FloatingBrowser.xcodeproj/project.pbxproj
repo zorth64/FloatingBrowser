@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,27 @@
 		141ECFFC22AF6EC6003104D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141ECFFB22AF6EC6003104D5 /* ContentView.swift */; };
 		141ECFFE22AF6EC7003104D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141ECFFD22AF6EC7003104D5 /* Assets.xcassets */; };
 		141ED00122AF6EC7003104D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141ED00022AF6EC7003104D5 /* Preview Assets.xcassets */; };
-		141ED00422AF6EC7003104D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141ED00222AF6EC7003104D5 /* Main.storyboard */; };
+		540E37F42B322DE3008DA128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141ED00222AF6EC7003104D5 /* Main.storyboard */; };
+		54162B792B32757500BF606C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54162B782B32757500BF606C /* AppState.swift */; };
+		541E167E2B33735E00E93E65 /* Schwifty in Frameworks */ = {isa = PBXBuildFile; productRef = 541E167D2B33735E00E93E65 /* Schwifty */; };
+		54358CD62DB28ACA009ADC00 /* BackdropLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54358CD32DB28ACA009ADC00 /* BackdropLayerView.swift */; };
+		54358CD72DB28ACA009ADC00 /* BackdropLayerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54358CD42DB28ACA009ADC00 /* BackdropLayerWrapper.swift */; };
+		5440DBC42DBC4A4800C6BD1D /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440DBC32DBC4A4300C6BD1D /* PreferencesView.swift */; };
+		5440DBC62DBC547A00C6BD1D /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440DBC52DBC547600C6BD1D /* UserAgent.swift */; };
+		5440DBC82DBC5CA300C6BD1D /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440DBC72DBC5C9A00C6BD1D /* Forms.swift */; };
+		54488F192B320DB100A468E4 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54488F182B320DB100A468E4 /* WindowController.swift */; };
+		54922DAF2B3356400062BDFD /* NavigationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54922DAE2B3356400062BDFD /* NavigationRequest.swift */; };
+		54922DB12B3359070062BDFD /* WebViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54922DB02B3359070062BDFD /* WebViewDelegate.swift */; };
+		54922DB32B3364430062BDFD /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54922DB22B3364430062BDFD /* SearchEngine.swift */; };
+		54922DB52B336E410062BDFD /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54922DB42B336E410062BDFD /* Dependencies.swift */; };
+		54B1C7392B36264B00317B44 /* DominantColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1C7382B36264B00317B44 /* DominantColor.swift */; };
+		54B27F112DBB4A6A006C94B2 /* SharingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B27F102DBB4A55006C94B2 /* SharingButtonStyle.swift */; };
+		54B3C4D42B33962F00E33DB8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 54B3C4D32B33962F00E33DB8 /* Swinject */; };
+		54BAAA8E2DBD5A07009EC049 /* RuntimeEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAAA8D2DBD5A02009EC049 /* RuntimeEvents.swift */; };
+		54BAAA942DBDC0A6009EC049 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAAA932DBDC0A6009EC049 /* WebView.swift */; };
+		54BAAA982DBDCF79009EC049 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAAA972DBDCF76009EC049 /* Window.swift */; };
+		54E7288F2CEBC3BA002E5E26 /* PlainTitleBarButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E7288E2CEBC3AF002E5E26 /* PlainTitleBarButtonStyle.swift */; };
+		54F8DF3B2B37B19400EF2C26 /* JavaScriptUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8DF3A2B37B19400EF2C26 /* JavaScriptUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +43,28 @@
 		141ED00322AF6EC7003104D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		141ED00522AF6EC7003104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141ED00622AF6EC7003104D5 /* FloatingBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FloatingBrowser.entitlements; sourceTree = "<group>"; };
+		54162B782B32757500BF606C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		54358CCE2DB28A34009ADC00 /* CABackdropLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABackdropLayer.h; sourceTree = "<group>"; };
+		54358CCF2DB28A34009ADC00 /* CAFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAFilter.h; sourceTree = "<group>"; };
+		54358CD02DB28A34009ADC00 /* CAPropertyInfo-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAPropertyInfo-Protocol.h"; sourceTree = "<group>"; };
+		54358CD12DB28A34009ADC00 /* FloatingBrowser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FloatingBrowser-Bridging-Header.h"; sourceTree = "<group>"; };
+		54358CD32DB28ACA009ADC00 /* BackdropLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropLayerView.swift; sourceTree = "<group>"; };
+		54358CD42DB28ACA009ADC00 /* BackdropLayerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropLayerWrapper.swift; sourceTree = "<group>"; };
+		5440DBC32DBC4A4300C6BD1D /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		5440DBC52DBC547600C6BD1D /* UserAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
+		5440DBC72DBC5C9A00C6BD1D /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		54488F182B320DB100A468E4 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		54922DAE2B3356400062BDFD /* NavigationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRequest.swift; sourceTree = "<group>"; };
+		54922DB02B3359070062BDFD /* WebViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDelegate.swift; sourceTree = "<group>"; };
+		54922DB22B3364430062BDFD /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		54922DB42B336E410062BDFD /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		54B1C7382B36264B00317B44 /* DominantColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominantColor.swift; sourceTree = "<group>"; };
+		54B27F102DBB4A55006C94B2 /* SharingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingButtonStyle.swift; sourceTree = "<group>"; };
+		54BAAA8D2DBD5A02009EC049 /* RuntimeEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeEvents.swift; sourceTree = "<group>"; };
+		54BAAA932DBDC0A6009EC049 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		54BAAA972DBDCF76009EC049 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		54E7288E2CEBC3AF002E5E26 /* PlainTitleBarButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTitleBarButtonStyle.swift; sourceTree = "<group>"; };
+		54F8DF3A2B37B19400EF2C26 /* JavaScriptUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541E167E2B33735E00E93E65 /* Schwifty in Frameworks */,
+				54B3C4D42B33962F00E33DB8 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,13 +99,24 @@
 		141ECFF822AF6EC6003104D5 /* FloatingBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				54F31ADF2DB4754D00982DBC /* Bundle */,
+				54358CD22DB28A34009ADC00 /* PrivateHeaders */,
+				54358CD52DB28ACA009ADC00 /* Plugins */,
+				54F8DF392B37B14D00EF2C26 /* Utils */,
+				54162B772B32754600BF606C /* Model */,
 				141ECFF922AF6EC6003104D5 /* AppDelegate.swift */,
+				54922DB02B3359070062BDFD /* WebViewDelegate.swift */,
+				54488F182B320DB100A468E4 /* WindowController.swift */,
+				54BAAA932DBDC0A6009EC049 /* WebView.swift */,
 				141ECFFB22AF6EC6003104D5 /* ContentView.swift */,
+				5440DBC32DBC4A4300C6BD1D /* PreferencesView.swift */,
+				5440DBC22DBC4A3000C6BD1D /* Styles */,
 				141ECFFD22AF6EC7003104D5 /* Assets.xcassets */,
 				141ED00222AF6EC7003104D5 /* Main.storyboard */,
 				141ED00522AF6EC7003104D5 /* Info.plist */,
 				141ED00622AF6EC7003104D5 /* FloatingBrowser.entitlements */,
 				141ECFFF22AF6EC7003104D5 /* Preview Content */,
+				54922DB42B336E410062BDFD /* Dependencies.swift */,
 			);
 			path = FloatingBrowser;
 			sourceTree = "<group>";
@@ -72,6 +127,65 @@
 				141ED00022AF6EC7003104D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54162B772B32754600BF606C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54162B782B32757500BF606C /* AppState.swift */,
+				54BAAA972DBDCF76009EC049 /* Window.swift */,
+				54922DAE2B3356400062BDFD /* NavigationRequest.swift */,
+				54922DB22B3364430062BDFD /* SearchEngine.swift */,
+				5440DBC52DBC547600C6BD1D /* UserAgent.swift */,
+				54B1C7382B36264B00317B44 /* DominantColor.swift */,
+				54BAAA8D2DBD5A02009EC049 /* RuntimeEvents.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54358CD22DB28A34009ADC00 /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				54358CCE2DB28A34009ADC00 /* CABackdropLayer.h */,
+				54358CCF2DB28A34009ADC00 /* CAFilter.h */,
+				54358CD02DB28A34009ADC00 /* CAPropertyInfo-Protocol.h */,
+				54358CD12DB28A34009ADC00 /* FloatingBrowser-Bridging-Header.h */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		54358CD52DB28ACA009ADC00 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				54358CD32DB28ACA009ADC00 /* BackdropLayerView.swift */,
+				54358CD42DB28ACA009ADC00 /* BackdropLayerWrapper.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		5440DBC22DBC4A3000C6BD1D /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				54B27F102DBB4A55006C94B2 /* SharingButtonStyle.swift */,
+				54E7288E2CEBC3AF002E5E26 /* PlainTitleBarButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		54F31ADF2DB4754D00982DBC /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		54F8DF392B37B14D00EF2C26 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5440DBC72DBC5C9A00C6BD1D /* Forms.swift */,
+				54F8DF3A2B37B19400EF2C26 /* JavaScriptUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +204,10 @@
 			dependencies = (
 			);
 			name = FloatingBrowser;
+			packageProductDependencies = (
+				541E167D2B33735E00E93E65 /* Schwifty */,
+				54B3C4D32B33962F00E33DB8 /* Swinject */,
+			);
 			productName = FloatingBrowser;
 			productReference = 141ECFF622AF6EC6003104D5 /* FloatingBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +236,10 @@
 				Base,
 			);
 			mainGroup = 141ECFED22AF6EC5003104D5;
+			packageReferences = (
+				541E167C2B33735E00E93E65 /* XCRemoteSwiftPackageReference "Schwifty" */,
+				54B3C4D22B33962F00E33DB8 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 141ECFF722AF6EC6003104D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,7 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141ED00422AF6EC7003104D5 /* Main.storyboard in Resources */,
+				540E37F42B322DE3008DA128 /* Main.storyboard in Resources */,
 				141ED00122AF6EC7003104D5 /* Preview Assets.xcassets in Resources */,
 				141ECFFE22AF6EC7003104D5 /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +267,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5440DBC42DBC4A4800C6BD1D /* PreferencesView.swift in Sources */,
+				54E7288F2CEBC3BA002E5E26 /* PlainTitleBarButtonStyle.swift in Sources */,
+				54488F192B320DB100A468E4 /* WindowController.swift in Sources */,
 				141ECFFC22AF6EC6003104D5 /* ContentView.swift in Sources */,
+				54922DB12B3359070062BDFD /* WebViewDelegate.swift in Sources */,
+				5440DBC82DBC5CA300C6BD1D /* Forms.swift in Sources */,
+				54BAAA8E2DBD5A07009EC049 /* RuntimeEvents.swift in Sources */,
+				54B1C7392B36264B00317B44 /* DominantColor.swift in Sources */,
+				54F8DF3B2B37B19400EF2C26 /* JavaScriptUtils.swift in Sources */,
+				54922DB32B3364430062BDFD /* SearchEngine.swift in Sources */,
+				5440DBC62DBC547A00C6BD1D /* UserAgent.swift in Sources */,
+				54BAAA982DBDCF79009EC049 /* Window.swift in Sources */,
+				54922DB52B336E410062BDFD /* Dependencies.swift in Sources */,
 				141ECFFA22AF6EC6003104D5 /* AppDelegate.swift in Sources */,
+				54BAAA942DBDC0A6009EC049 /* WebView.swift in Sources */,
+				54358CD62DB28ACA009ADC00 /* BackdropLayerView.swift in Sources */,
+				54B27F112DBB4A6A006C94B2 /* SharingButtonStyle.swift in Sources */,
+				54358CD72DB28ACA009ADC00 /* BackdropLayerWrapper.swift in Sources */,
+				54922DAF2B3356400062BDFD /* NavigationRequest.swift in Sources */,
+				54162B792B32757500BF606C /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -282,10 +422,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FloatingBrowser/FloatingBrowser.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "FloatingBrowser/Preview\\ Content";
-				DEVELOPMENT_TEAM = 72S993BNAV;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FloatingBrowser/Info.plist;
@@ -293,8 +434,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewfinke.FloatingBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FloatingBrowser/PrivateHeaders/FloatingBrowser-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -304,10 +447,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FloatingBrowser/FloatingBrowser.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "FloatingBrowser/Preview\\ Content";
-				DEVELOPMENT_TEAM = 72S993BNAV;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FloatingBrowser/Info.plist;
@@ -315,8 +459,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewfinke.FloatingBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FloatingBrowser/PrivateHeaders/FloatingBrowser-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -343,6 +489,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		541E167C2B33735E00E93E65 /* XCRemoteSwiftPackageReference "Schwifty" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/curzel-it/Schwifty.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		54B3C4D22B33962F00E33DB8 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		541E167D2B33735E00E93E65 /* Schwifty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 541E167C2B33735E00E93E65 /* XCRemoteSwiftPackageReference "Schwifty" */;
+			productName = Schwifty;
+		};
+		54B3C4D32B33962F00E33DB8 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54B3C4D22B33962F00E33DB8 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 141ECFEE22AF6EC5003104D5 /* Project object */;
 }

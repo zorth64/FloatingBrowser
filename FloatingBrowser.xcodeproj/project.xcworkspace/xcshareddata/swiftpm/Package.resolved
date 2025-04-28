@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "schwifty",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/curzel-it/Schwifty.git",
+      "state" : {
+        "revision" : "ae4b35c9ab87ca3468a5d53fe2875fe9a3aa0ec4",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "463cb2d659c8ae34899d18057ea5b1bb86fc3178",
+        "version" : "2.8.4"
+      }
+    }
+  ],
+  "version" : 2
+}
